@@ -1,3 +1,11 @@
+# 会場メモ
+
+## プロジェクター
+
+- SONY VPL-DX11
+    - 0.63型XGA LCDパネル×3、約236万画素（1024×768×3）
+    - D-Sub 15ピンのみ
+
 # 今回のテーマ：隠す(hide)
 
 Hide in shadow → ambushってWizardy 5にありましたね
