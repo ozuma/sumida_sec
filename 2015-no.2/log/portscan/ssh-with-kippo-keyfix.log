@@ -1,19 +1,19 @@
 root@kali:~# nmap -n -A -p0-65535 192.168.2.66
 
-Starting Nmap 6.47 ( http://nmap.org ) at 2015-08-19 02:25 JST
+Starting Nmap 6.47 ( http://nmap.org ) at 2015-08-19 05:20 JST
 Nmap scan report for 192.168.2.66
-Host is up (0.00018s latency).
+Host is up (0.00019s latency).
 Not shown: 65533 filtered ports
-PORT      STATE SERVICE VERSION
-22/tcp    open  ssh     OpenSSH 5.3 (protocol 2.0)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2222/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2222/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-22459/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
+2245/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
@@ -27,9 +27,8 @@ Network Distance: 1 hop
 
 TRACEROUTE
 HOP RTT     ADDRESS
-1   0.18 ms 192.168.2.66
+1   0.19 ms 192.168.2.66
 
 OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 162.99 seconds
+Nmap done: 1 IP address (1 host up) scanned in 162.55 seconds
 root@kali:~# 
-

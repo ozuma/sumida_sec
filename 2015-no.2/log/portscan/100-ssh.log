@@ -1,413 +1,411 @@
-# Nmap 6.47 scan initiated Wed Aug 19 02:37:26 2015 as: nmap -n -A -p0-65535 -oN 100-ssh.log 192.168.2.66
+root@kali:~# nmap -n -A -p0-65535 192.168.2.66
+
+Starting Nmap 6.47 ( http://nmap.org ) at 2015-08-19 05:24 JST
 Nmap scan report for 192.168.2.66
-Host is up (0.00025s latency).
-Not shown: 65434 filtered ports
-PORT      STATE SERVICE VERSION
-22/tcp    open  ssh     OpenSSH 5.3 (protocol 2.0)
+Host is up (0.00018s latency).
+Not shown: 65435 filtered ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2200/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2200/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2201/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2201/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2202/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2202/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2203/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2203/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2204/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2204/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2205/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2205/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2206/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2206/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2207/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2207/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2208/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2208/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2209/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2209/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2210/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2210/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2211/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2211/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2212/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2212/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2213/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2213/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2214/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2214/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2215/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2215/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2216/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2216/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2217/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2217/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2218/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2218/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2219/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2219/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2220/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2220/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2221/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2221/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2222/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2222/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2223/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2223/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2224/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2224/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2225/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2225/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2226/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2226/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2227/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2227/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2228/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2228/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2229/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2229/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2230/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2230/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2231/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2231/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2232/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2232/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2233/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2233/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2234/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2234/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2235/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2235/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2236/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2236/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2237/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2237/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2238/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2238/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2239/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2239/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2240/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2240/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2241/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2241/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2242/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2242/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2243/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2243/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2244/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2244/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2245/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2245/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2246/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2246/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2247/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2247/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2248/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2248/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2249/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2249/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2250/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2250/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2251/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2251/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2252/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2252/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2253/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2253/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2254/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2254/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2255/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2255/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2256/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2256/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2257/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2257/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2258/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2258/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2259/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2259/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2260/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2260/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2261/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2261/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2262/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2262/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2263/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2263/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2264/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2264/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2265/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2265/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2266/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2266/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2267/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2267/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2268/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2268/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2269/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2269/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2270/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2270/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2271/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2271/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2272/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2272/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2273/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2273/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2274/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2274/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2275/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2275/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2276/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2276/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2277/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2277/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2278/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2278/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2279/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2279/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2280/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2280/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2281/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2281/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2282/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2282/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2283/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2283/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2284/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2284/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2285/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2285/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2286/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2286/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2287/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2287/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2288/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2288/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2289/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2289/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2290/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2290/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2291/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2291/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2292/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2292/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2293/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2293/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2294/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2294/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2295/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2295/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2296/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2296/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2297/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2297/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2298/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
+2298/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-2299/tcp  open  ssh     OpenSSH 5.3 (protocol 2.0)
-| ssh-hostkey: 
-|   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
-|_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
-22459/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
+2299/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
 | ssh-hostkey: 
 |   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
 |_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
@@ -421,7 +419,8 @@ Network Distance: 1 hop
 
 TRACEROUTE
 HOP RTT     ADDRESS
-1   0.25 ms 192.168.2.66
+1   0.18 ms 192.168.2.66
 
 OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
-# Nmap done at Wed Aug 19 02:39:48 2015 -- 1 IP address (1 host up) scanned in 142.65 seconds
+Nmap done: 1 IP address (1 host up) scanned in 142.54 seconds
+root@kali:~# 
