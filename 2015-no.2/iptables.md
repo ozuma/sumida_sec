@@ -1,0 +1,57 @@
+
+# 複数ポートをリダイレクトする
+
+`-m multiport`フラグはカンマ区切りで使う。範囲を示したいときはコロンを使うと良い
+
+```
+# iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 2200:2221 -j REDIRECT --to-port 2222
+# iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 2223:2299 -j REDIRECT --to-port 2222
+```
+
+## 確認
+
+iptablesの`-nL`オプションを使う
+
+```
+[root@cent6 sysconfig]# iptables -nL
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     all  --  0.0.0.0/0            0.0.0.0/0           state RELATED,ESTABLISHED 
+ACCEPT     icmp --  0.0.0.0/0            0.0.0.0/0           
+ACCEPT     all  --  0.0.0.0/0            0.0.0.0/0           
+ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0           state NEW tcp dpt:22 
+ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0           state NEW tcp dpt:22459 
+REJECT     all  --  0.0.0.0/0            0.0.0.0/0           reject-with icmp-host-prohibited 
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+REJECT     all  --  0.0.0.0/0            0.0.0.0/0           reject-with icmp-host-prohibited 
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+```
+
+natテーブルは`-t nat`付ける
+
+```
+[root@cent6 sysconfig]# iptables -t nat -nL 
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+REDIRECT   tcp  --  0.0.0.0/0            0.0.0.0/0           tcp dpts:2200:2221 redir ports 2222 
+REDIRECT   tcp  --  0.0.0.0/0            0.0.0.0/0           tcp dpts:2223:2299 redir ports 2222 
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+```
+
+最後に`/etc/init.d/iptables save`しておく
+
+## ファイルへの書き方
+
+natテーブルのPREROUTINGチェインに書く
+
+
+

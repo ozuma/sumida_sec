@@ -1,0 +1,26 @@
+root@kali:~# nmap -n -A -p0-65535 192.168.2.66
+
+Starting Nmap 6.47 ( http://nmap.org ) at 2015-08-19 00:03 JST
+Nmap scan report for 192.168.2.66
+Host is up (0.00016s latency).
+Not shown: 65535 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 bc:92:50:82:82:bc:d0:ab:b8:a2:6f:34:bb:f7:fd:bd (DSA)
+|_  2048 ea:63:6a:de:44:98:c3:c9:35:88:d7:e9:81:cc:f7:47 (RSA)
+MAC Address: 00:0C:29:8D:99:C1 (VMware)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.10
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.16 ms 192.168.2.66
+
+OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 2.85 seconds
+root@kali:~# 
+
