@@ -1,0 +1,29 @@
+root@kali:~# nmap -n -v --top-ports 10 192.168.2.66
+
+Starting Nmap 6.47 ( http://nmap.org ) at 2015-08-19 02:06 JST
+Initiating ARP Ping Scan at 02:06
+Scanning 192.168.2.66 [1 port]
+Completed ARP Ping Scan at 02:06, 0.00s elapsed (1 total hosts)
+Initiating SYN Stealth Scan at 02:06
+Scanning 192.168.2.66 [10 ports]
+Completed SYN Stealth Scan at 02:06, 1.24s elapsed (10 total ports)
+Nmap scan report for 192.168.2.66
+Host is up (0.00014s latency).
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+22/tcp   closed   ssh
+23/tcp   filtered telnet
+25/tcp   filtered smtp
+80/tcp   filtered http
+110/tcp  filtered pop3
+139/tcp  filtered netbios-ssn
+443/tcp  filtered https
+445/tcp  filtered microsoft-ds
+3389/tcp filtered ms-wbt-server
+MAC Address: 00:0C:29:8D:99:C1 (VMware)
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 1.27 seconds
+           Raw packets sent: 14 (600B) | Rcvd: 9 (572B)
+root@kali:~# 
+
