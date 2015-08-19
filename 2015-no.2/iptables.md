@@ -80,3 +80,10 @@ COMMIT
 [root@cent6 sysconfig]# 
 ```
 
+なお、丁寧に2222/tcpを避けて書いているけど、ループは発生しないので2222/tcpで内部リダイレクトしても構わない。
+
+```
+-A PREROUTING -i eth0 -p tcp -m tcp --dport 2200:2244 -j REDIRECT --to-ports 2222 
+```
+
+
