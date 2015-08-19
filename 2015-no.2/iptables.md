@@ -61,7 +61,8 @@ natテーブルのPREROUTINGチェインに書く
 :OUTPUT ACCEPT [0:0]
 -A PREROUTING -i eth0 -p tcp -m tcp --dport 22 -j REDIRECT --to-ports 2222 
 -A PREROUTING -i eth0 -p tcp -m tcp --dport 2200:2221 -j REDIRECT --to-ports 2222 
--A PREROUTING -i eth0 -p tcp -m tcp --dport 2223:2299 -j REDIRECT --to-ports 2222 
+-A PREROUTING -i eth0 -p tcp -m tcp --dport 2223:2244 -j REDIRECT --to-ports 2222 
+-A PREROUTING -i eth0 -p tcp -m tcp --dport 2246:2299 -j REDIRECT --to-ports 2222 
 COMMIT
 
 *filter
@@ -72,7 +73,7 @@ COMMIT
 -A INPUT -p icmp -j ACCEPT 
 -A INPUT -i lo -j ACCEPT 
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 2222 -j ACCEPT 
--A INPUT -p tcp -m state --state NEW -m tcp --dport 22459 -j ACCEPT 
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 2245 -j ACCEPT 
 -A INPUT -j REJECT --reject-with icmp-host-prohibited 
 -A FORWARD -j REJECT --reject-with icmp-host-prohibited 
 COMMIT
