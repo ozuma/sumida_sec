@@ -59,10 +59,10 @@ natテーブルのPREROUTINGチェインに書く
 :PREROUTING ACCEPT [0:0]
 :POSTROUTING ACCEPT [0:0]
 :OUTPUT ACCEPT [0:0]
--A PREROUTING -i eth0 -p tcp -m tcp --dport 22 -j REDIRECT --to-ports 2222 
--A PREROUTING -i eth0 -p tcp -m tcp --dport 2200:2221 -j REDIRECT --to-ports 2222 
--A PREROUTING -i eth0 -p tcp -m tcp --dport 2223:2244 -j REDIRECT --to-ports 2222 
--A PREROUTING -i eth0 -p tcp -m tcp --dport 2246:2299 -j REDIRECT --to-ports 2222 
+-A PREROUTING -i eth0 -p tcp --dport 22 -j REDIRECT --to-ports 2222 
+-A PREROUTING -i eth0 -p tcp --dport 2200:2221 -j REDIRECT --to-ports 2222 
+-A PREROUTING -i eth0 -p tcp --dport 2223:2244 -j REDIRECT --to-ports 2222 
+-A PREROUTING -i eth0 -p tcp --dport 2246:2299 -j REDIRECT --to-ports 2222 
 COMMIT
 
 *filter
@@ -83,7 +83,7 @@ COMMIT
 なお、丁寧に2222/tcpを避けて書いているけど、ループは発生しないので2222/tcpで内部リダイレクトしても構わない。
 
 ```
--A PREROUTING -i eth0 -p tcp -m tcp --dport 2200:2244 -j REDIRECT --to-ports 2222 
+-A PREROUTING -i eth0 -p tcp --dport 2200:2244 -j REDIRECT --to-ports 2222 
 ```
 
 
